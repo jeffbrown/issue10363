@@ -11,7 +11,7 @@ class BarServiceSpec extends Specification {
         getService()
 
         then:
-        thrown(ClassCastException)
+        notThrown ClassCastException
     }
 
 }

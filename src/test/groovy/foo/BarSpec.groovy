@@ -11,7 +11,7 @@ class BarSpec extends Specification {
         getDomain()
 
         then:
-        thrown(ClassCastException)
+        notThrown ClassCastException
     }
 
 }

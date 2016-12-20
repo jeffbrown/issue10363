@@ -11,7 +11,7 @@ class BarControllerSpec extends Specification {
         getController()
 
         then:
-        thrown(ClassCastException)
+        notThrown ClassCastException
     }
 
 }
